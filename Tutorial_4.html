@@ -1,0 +1,32 @@
+<!-- Adding an SVG to a WebPage via D3.js -->
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<style>/* CSS */</style>
+</head>
+
+<body>
+	<!-- D3.js referenced -->
+	<!-- D3.js can also be accessed from the Chrome JavaScript Console
+	>d3. 'tab' -->
+	<script type="text/javascript" src="/d3.v2.js"></script>
+	<script>
+
+	</script>
+	<p>Hello World</p>
+	<!-- Adding a <p> tag after Hello World - d3.select("body").append("p"); -->
+
+	<!-- Adding an SVG - Circle -->
+	<svg width="150" height="150">
+		<circle cx="75" cy="75" r="75" fill="steelblue" />
+	</svg>
+
+	<!-- Adding various Circles -->
+	<svg width="150" height="150">
+		<circle cx="75" cy="75" r="75" fill="steelblue" />
+		<circle cx="75" cy="75" r="55" fill="green" />
+		<circle cx="75" cy="75" r="35" fill="yellow" />
+		<circle cx="75" cy="75" r="15" fill="white" />
+	</svg>
+</body>
